@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry exported="true" kind="lib" path="src/Resources/Libraries/fontawesomefx-8.9.jar"/>
+	<classpathentry exported="true" kind="lib" path="src/Resources/Libraries/gson-2.8.6.jar"/>
+	<classpathentry exported="true" kind="lib" path="src/Resources/Libraries/jfoenix-8.0.8.jar"/>
+	<classpathentry exported="true" kind="lib" path="src/Resources/Libraries/postgresql-42.2.12.jar"/>
+	<classpathentry kind="output" path="out/production/Matracazo"/>
+</classpath>
