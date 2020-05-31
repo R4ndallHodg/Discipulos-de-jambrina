@@ -1,13 +1,3 @@
-#loginPane {
-    -fx-background-color: linear-gradient(#FFB600, #FF8500 ,#FF6D00, #FF5400);
-}
-
-.label {
-    -fx-font-size: 11pt;
-    -fx-font-family: "Segoe UI Semibold";
-    -fx-text-fill: white;
-}
-
 .login-window-buttons {
     -fx-padding: 8 15 15 15;
     -fx-background-insets: 0,0 0 5 0, 0 0 6 0, 0 0 7 0;
@@ -63,18 +53,21 @@
     -fx-text-fill: white;
 }
 
-.login-text-fields {
-    -fx-background-insets: 0 -1 -1 -1, 0 0 0 0, 0 -1 3 -1;
-    -fx-background-color: #FFB600, #FF9E00;
-    -fx-background-insets: 0, 0 0 1 0 ;
-    -fx-background-radius: 20;
+#facturaBtn {
+    -fx-background-color:
+            #000000,
+            linear-gradient(#4A473E, #2f4b8f),
+            linear-gradient(#263C41, #263e75),
+            linear-gradient(#143642, #223768);
+    -fx-background-insets: 0,1,2,3;
+    -fx-background-radius: 3,2,2,2;
+    -fx-padding: 12 30 12 30;
+    -fx-text-fill: white;
+    -fx-font-size: 12px;
 }
 
-.login-text-fields:focused {
-    -fx-background-color: #FF9100;
-    -fx-background-insets: 0 -1 -1 -1, 0 0 0 0, 0 -1 3 -1;
-}
-
-FontAwesomeIconView:hover{
-    -fx-cursor: hand;
+#facturaBtn Text {
+    -fx-font-family: Monospaced
+;
+    -fx-effect: dropshadow( one-pass-box , rgba(0,0,0,0.8) , 0, 0.0 , 0 , 1);
 }

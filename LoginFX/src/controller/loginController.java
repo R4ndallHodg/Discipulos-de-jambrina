@@ -37,10 +37,10 @@ public class loginController implements Initializable {
             System.out.println("Correcto");
             Parent root = FXMLLoader.load(getClass().getResource("../views/mainFrame.fxml"));
             Scene scene = new Scene(root);
-            Stage  stage = new Stage();
-            stage.setScene(scene);
-            stage.initStyle(StageStyle.TRANSPARENT);
+            Stage stage = new Stage();
             stage.setMaximized(true);
+            stage.initStyle(StageStyle.UNDECORATED);
+            stage.setScene(scene);
             stage.show();
         }
         else{
