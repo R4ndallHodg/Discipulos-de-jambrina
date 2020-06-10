@@ -167,12 +167,6 @@
                                        <String fx:value="Funcion 6:00 AM - 7:30 PM" />
                                     </FXCollections>
                                  </items>
-                                 <VBox.margin>
-                                    <Insets left="10.0" />
-                                 </VBox.margin>
-                                 <opaqueInsets>
-                                    <Insets />
-                                 </opaqueInsets>
                               </ComboBox>
                               <TextField fx:id="salaTxt" editable="false" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="25.0" prefWidth="208.0" stylesheets="@../styles/myTextFieldsStyles.css" />
                               <ChoiceBox fx:id="asientosCh" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="25.0" prefWidth="208.0" stylesheets="@../styles/myChoiceBoxStyles.css" />

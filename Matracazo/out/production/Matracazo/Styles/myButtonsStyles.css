@@ -53,21 +53,9 @@
     -fx-text-fill: white;
 }
 
-#facturaBtn {
-    -fx-background-color:
-            #000000,
-            linear-gradient(#4A473E, #2f4b8f),
-            linear-gradient(#263C41, #263e75),
-            linear-gradient(#143642, #223768);
-    -fx-background-insets: 0,1,2,3;
-    -fx-background-radius: 3,2,2,2;
-    -fx-padding: 12 30 12 30;
+.botones-seleccion {
+    -fx-background-color: linear-gradient(#9D0208, #370617);
+    -fx-background-radius: 30;
+    -fx-background-insets: 0;
     -fx-text-fill: white;
-    -fx-font-size: 12px;
-}
-
-#facturaBtn Text {
-    -fx-font-family: Monospaced
-;
-    -fx-effect: dropshadow( one-pass-box , rgba(0,0,0,0.8) , 0, 0.0 , 0 , 1);
 }
