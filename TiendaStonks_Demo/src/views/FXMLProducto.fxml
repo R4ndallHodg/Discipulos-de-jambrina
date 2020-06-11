@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" styleClass="mainFxmlClass" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.FXMLProductoController">
+    <stylesheets>
+        <URL value="@/styles/fxmlproducto.css" />
+    </stylesheets>
+   <children>
+      <MenuBar layoutY="1.0" prefHeight="26.0" prefWidth="600.0">
+        <menus>
+          <Menu mnemonicParsing="false" text="Cargar">
+            <items>
+              <MenuItem mnemonicParsing="false" text="Cargar Productos" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Edit">
+            <items>
+              <MenuItem mnemonicParsing="false" text="Delete" />
+            </items>
+          </Menu>
+        </menus>
+      </MenuBar>
+      <AnchorPane layoutY="27.0" prefHeight="373.0" prefWidth="600.0">
+         <children>
+            <TableView fx:id="tblProductos" prefHeight="374.0" prefWidth="600.0">
+              <columns>
+                <TableColumn fx:id="col_ID" prefWidth="60.79998779296875" text="ID" />
+                  <TableColumn fx:id="col_IDProveedor" prefWidth="95.20001220703125" text="ID Provedor" />
+                <TableColumn fx:id="col_Descripcion" prefWidth="205.5999755859375" text="Descripcion" />
+                  <TableColumn fx:id="col_Stock" prefWidth="120.800048828125" text="Stock" />
+                  <TableColumn fx:id="col_Precio" prefWidth="118.39996337890625" text="Precio" />
+              </columns>
+            </TableView>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
