@@ -19,11 +19,11 @@
 <?import javafx.scene.layout.Pane?>
 <?import javafx.scene.layout.VBox?>
 
-<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="724.0" prefWidth="1266.0" stylesheets="@../Styles/style.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.mainStageController">
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="720.0" prefWidth="1280.0" stylesheets="@../Styles/style.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.mainStageController">
    <center>
-      <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="584.0" prefWidth="956.0">
+      <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="584.0" prefWidth="1032.0">
          <children>
-            <VBox layoutX="-60.0" layoutY="-33.0" prefHeight="659.0" prefWidth="702.0">
+            <VBox layoutY="-33.0" prefHeight="659.0" prefWidth="702.0">
                <children>
                   <HBox prefHeight="66.0" prefWidth="170.0" stylesheets="@../Styles/header.css">
                      <children>
@@ -36,11 +36,11 @@
                   </HBox>
                   <ScrollPane hbarPolicy="NEVER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="633.0" prefWidth="652.0" stylesheets="@../Styles/myScrollPanes.css" vbarPolicy="ALWAYS">
                      <content>
-                        <VBox>
+                        <VBox prefHeight="1000.0" prefWidth="604.0">
                            <children>
                               <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="200.0" prefWidth="589.0" styleClass="movie-pane" stylesheets="@../Styles/colorScale.css">
                                  <children>
-                                    <ImageView fitHeight="142.0" fitWidth="125.0" layoutX="14.0" layoutY="25.0" pickOnBounds="true" preserveRatio="true">
+                                    <ImageView fitHeight="142.0" fitWidth="125.0" layoutX="14.0" layoutY="38.0" pickOnBounds="true" preserveRatio="true">
                                        <image>
                                           <Image url="@../Resources/Images/riseoftheplanetoftheapes_movie_movies_movies_movie_7655.png" />
                                        </image>
@@ -224,9 +224,9 @@
       </HBox>
    </top>
    <left>
-      <AnchorPane prefHeight="694.0" prefWidth="387.0" BorderPane.alignment="CENTER">
+      <AnchorPane prefHeight="689.0" prefWidth="345.0" BorderPane.alignment="CENTER">
          <children>
-            <VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="694.0" prefWidth="388.0" styleClass="employee-frame" stylesheets="@../Styles/colorScale.css">
+            <VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="682.0" prefWidth="347.0" styleClass="employee-frame" stylesheets="@../Styles/colorScale.css">
                <children>
                   <Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="266.0" prefWidth="388.0">
                      <children>
@@ -244,13 +244,13 @@
                         </VBox>
                      </children>
                   </Pane>
-                  <JFXTabPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="429.0" prefWidth="388.0" stylesheets="@../Styles/myTabPane.css" VBox.vgrow="ALWAYS">
+                  <JFXTabPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="429.0" prefWidth="348.0" stylesheets="@../Styles/myTabPane.css" VBox.vgrow="ALWAYS">
                      <tabs>
                         <Tab text="Lunes de Big pitos">
                           <content>
                             <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="267.0" prefWidth="432.0">
                                  <children>
-                                    <ImageView fitHeight="362.0" fitWidth="388.0" pickOnBounds="true">
+                                    <ImageView fitHeight="351.0" fitWidth="348.0" pickOnBounds="true">
                                        <image>
                                           <Image url="@../Resources/Images/anuncio.png" />
                                        </image>
@@ -263,7 +263,7 @@
                           <content>
                             <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="324.0" prefWidth="336.0">
                                  <children>
-                                    <ImageView fitHeight="362.0" fitWidth="388.0" layoutX="-1.0" layoutY="-2.0" pickOnBounds="true">
+                                    <ImageView fitHeight="351.0" fitWidth="348.0" layoutX="-1.0" layoutY="-2.0" pickOnBounds="true">
                                        <image>
                                           <Image url="@../Resources/Images/anuncio.png" />
                                        </image>
@@ -276,7 +276,7 @@
                           <content>
                             <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="336.0">
                                  <children>
-                                    <ImageView fitHeight="362.0" fitWidth="388.0" layoutX="-1.0" layoutY="-1.0" pickOnBounds="true">
+                                    <ImageView fitHeight="351.0" fitWidth="348.0" layoutX="-1.0" layoutY="-1.0" pickOnBounds="true">
                                        <image>
                                           <Image url="@../Resources/Images/anuncio.png" />
                                        </image>
@@ -289,7 +289,7 @@
                           <content>
                             <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
                                  <children>
-                                    <ImageView fitHeight="362.0" fitWidth="388.0" pickOnBounds="true">
+                                    <ImageView fitHeight="351.0" fitWidth="348.0" layoutY="-1.0" pickOnBounds="true">
                                        <image>
                                           <Image url="@../Resources/Images/anuncio.png" />
                                        </image>

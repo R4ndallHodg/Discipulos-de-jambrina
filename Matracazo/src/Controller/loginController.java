@@ -70,11 +70,11 @@ public class loginController implements Initializable {
             stage.setScene(new Scene(root));
             stage.setResizable(false);
             stage.initStyle(StageStyle.TRANSPARENT);
-            Rectangle2D primaryScreenBounds = Screen.getPrimary().getVisualBounds();
-            stage.setX(primaryScreenBounds.getMinX());
-            stage.setY(primaryScreenBounds.getMinY());
-            stage.setWidth(primaryScreenBounds.getWidth());
-            stage.setHeight(primaryScreenBounds.getHeight());
+//            Rectangle2D primaryScreenBounds = Screen.getPrimary().getVisualBounds();
+//            stage.setX(primaryScreenBounds.getMinX());
+//            stage.setY(primaryScreenBounds.getMinY());
+//            stage.setWidth(primaryScreenBounds.getWidth());
+//            stage.setHeight(primaryScreenBounds.getHeight());
             stage.show();
         }
         else{
