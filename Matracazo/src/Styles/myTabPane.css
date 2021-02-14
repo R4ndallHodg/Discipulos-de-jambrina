@@ -1,0 +1,9 @@
+.tab-header-background {
+    -fx-background-color: #370617;
+}
+
+.jfx-tab-pane .tab-selected-line {
+    -fx-border-color: #FFBA08;
+    -fx-border-width: 15%;
+}
+

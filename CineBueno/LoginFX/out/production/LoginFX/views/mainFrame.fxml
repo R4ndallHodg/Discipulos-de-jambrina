@@ -1,0 +1,422 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXTabPane?>
+<?import java.lang.String?>
+<?import java.net.URL?>
+<?import javafx.collections.FXCollections?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="mainPanel" prefHeight="1017.0" prefWidth="1466.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.mainFrame">
+   <children>
+      <VBox alignment="TOP_CENTER" layoutX="-12.0" layoutY="116.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="906.0" prefWidth="533.0" styleClass="main-pane">
+         <children>
+            <ImageView fitHeight="135.0" fitWidth="131.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/female_cashier_avatar_people_icon_142371.png" />
+               </image>
+            </ImageView>
+            <VBox prefHeight="84.0" prefWidth="369.0" stylesheets="@../styles/cashierText.css">
+               <children>
+                  <Label styleClass="cashier-info" text=" Nombre: Ana Conda" textOverrun="CENTER_WORD_ELLIPSIS">
+                     <font>
+                        <Font name="Courier New" size="12.0" />
+                     </font>
+                  </Label>
+                  <Label styleClass="cashier-info" text=" Carnet: 1287e9837" />
+                  <Label styleClass="cashier-info" text=" Turno: Matutino" />
+                  <Label styleClass="cashier-info" text=" Hora: 11:40 PM" />
+               </children>
+               <VBox.margin>
+                  <Insets top="50.0" />
+               </VBox.margin>
+            </VBox>
+            <JFXTabPane prefHeight="397.0" prefWidth="318.0">
+               <tabs>
+                  <Tab text="Lunes">
+                    <content>
+                      <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                           <children>
+                              <ImageView fitHeight="319.0" fitWidth="382.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../images/Hamburger_icon-icons.com_68741.png" />
+                                 </image>
+                              </ImageView>
+                           </children>
+                        </AnchorPane>
+                    </content>
+                  </Tab>
+                  <Tab text="Martes">
+                    <content>
+                      <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                           <children>
+                              <ImageView fitHeight="371.0" fitWidth="318.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../images/cinema_popcorn_icon-icons.com_66128.png" />
+                                 </image>
+                              </ImageView>
+                           </children>
+                        </AnchorPane>
+                    </content>
+                  </Tab>
+                  <Tab text="Miercoles">
+                    <content>
+                      <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                           <children>
+                              <ImageView fitHeight="324.0" fitWidth="365.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../images/1486504374-clip-film-movie-multimedia-play-short-video_81330.png" />
+                                 </image>
+                              </ImageView>
+                           </children>
+                        </AnchorPane>
+                    </content>
+                  </Tab>
+                  <Tab text="Jueves">
+                    <content>
+                      <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                           <children>
+                              <ImageView fitHeight="320.0" fitWidth="420.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../images/movie_cinema_slides_tape_film_icon-icons.com_66136.png" />
+                                 </image>
+                              </ImageView>
+                           </children>
+                        </AnchorPane>
+                    </content>
+                  </Tab>
+                  <Tab text="Viernes">
+                    <content>
+                      <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="318.0">
+                           <children>
+                              <ImageView fitHeight="356.0" fitWidth="320.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../images/Hot_Dog_icon-icons.com_68736.png" />
+                                 </image>
+                              </ImageView>
+                           </children>
+                           <padding>
+                              <Insets left="50.0" />
+                           </padding>
+                        </AnchorPane>
+                    </content>
+                  </Tab>
+                  <Tab text="Sabado">
+                    <content>
+                      <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                           <children>
+                              <ImageView fitHeight="325.0" fitWidth="409.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../images/recipewrapicon_109883.png" />
+                                 </image>
+                              </ImageView>
+                           </children>
+                        </AnchorPane>
+                    </content>
+                  </Tab>
+               </tabs>
+               <VBox.margin>
+                  <Insets top="150.0" />
+               </VBox.margin>
+            </JFXTabPane>
+         </children>
+         <stylesheets>
+            <URL value="@../styles/myTabPane.css" />
+            <URL value="@../styles/colorScale.css" />
+         </stylesheets>
+      </VBox>
+      <ScrollPane hbarPolicy="NEVER" layoutX="529.0" layoutY="116.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="906.0" prefWidth="835.0" stylesheets="@../styles/myScrollPanes.css" vbarPolicy="ALWAYS">
+         <content>
+            <VBox prefHeight="1122.0" prefWidth="819.0">
+               <children>
+                  <HBox alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="226.0" prefWidth="818.0" styleClass="movie-pane" stylesheets="@../styles/colorScale.css">
+                     <children>
+                        <ImageView fitHeight="183.0" fitWidth="179.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../images/riseoftheplanetoftheapes_movie_movies_movies_movie_7655.png" />
+                           </image>
+                           <HBox.margin>
+                              <Insets left="-60.0" />
+                           </HBox.margin>
+                        </ImageView>
+                        <VBox alignment="TOP_RIGHT" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="200.0" prefWidth="218.0" spacing="20.0" HBox.hgrow="NEVER">
+                           <HBox.margin>
+                              <Insets />
+                           </HBox.margin>
+                           <children>
+                              <ComboBox id="funciones" fx:id="funciones" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onAction="#movieSelection" prefHeight="25.0" prefWidth="208.0" promptText="Funciones: " stylesheets="@../styles/myComboBoxesStyles.css">
+                                 <items>
+                                    <FXCollections fx:factory="observableArrayList">
+                                       <String fx:value="Funcion 10:00 AM - 11:30 PM" />
+                                       <String fx:value="Funcion 11:30 AM - 1:30 PM" />
+                                       <String fx:value="Funcion 1:30 AM - 3:00 PM" />
+                                       <String fx:value="Funcion 3:00 AM - 4:30 PM" />
+                                       <String fx:value="Funcion 4:30 AM - 6:00 PM" />
+                                       <String fx:value="Funcion 6:00 AM - 7:30 PM" />
+                                    </FXCollections>
+                                 </items>
+                                 <VBox.margin>
+                                    <Insets left="10.0" />
+                                 </VBox.margin>
+                                 <opaqueInsets>
+                                    <Insets />
+                                 </opaqueInsets>
+                              </ComboBox>
+                              <TextField fx:id="salaTxt" editable="false" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="25.0" prefWidth="208.0" stylesheets="@../styles/myTextFieldsStyles.css" />
+                              <ChoiceBox fx:id="asientosCh" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="25.0" prefWidth="208.0" stylesheets="@../styles/myChoiceBoxStyles.css" />
+                              <TextField fx:id="cantidadTxt1" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="25.0" prefWidth="208.0" stylesheets="@../styles/myTextFieldsStyles.css" />
+                           </children>
+                           <opaqueInsets>
+                              <Insets />
+                           </opaqueInsets>
+                           <padding>
+                              <Insets top="10.0" />
+                           </padding>
+                        </VBox>
+                        <AnchorPane maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="166.0" prefWidth="239.0" HBox.hgrow="NEVER">
+                           <HBox.margin>
+                              <Insets left="100.0" top="50.0" />
+                           </HBox.margin>
+                           <children>
+                              <Button id="facturaBtn" fx:id="facturaBtn1" alignment="CENTER" contentDisplay="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="119.0" prefWidth="226.0" stylesheets="@../styles/myButtonsStyles.css" text="Agregar a factura" />
+                           </children>
+                        </AnchorPane>
+                     </children>
+                  </HBox>
+                  <HBox alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="226.0" prefWidth="818.0" styleClass="movie-pane" stylesheets="@../styles/colorScale.css">
+                     <children>
+                        <ImageView fitHeight="183.0" fitWidth="179.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../images/TheChroniclesofNarniatheLiontheWitchandtheWardrobe_movie_movies_movies_movie_7559.png" />
+                           </image>
+                           <HBox.margin>
+                              <Insets left="-60.0" />
+                           </HBox.margin>
+                        </ImageView>
+                        <VBox alignment="TOP_RIGHT" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="200.0" prefWidth="218.0" spacing="20.0" HBox.hgrow="NEVER">
+                           <HBox.margin>
+                              <Insets />
+                           </HBox.margin>
+                           <children>
+                               <ComboBox fx:id="funciones1" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onAction="#movieSelection" prefHeight="25.0" prefWidth="208.0" promptText="Funciones: " stylesheets="@../styles/myComboBoxesStyles.css">
+                                   <items>
+                                       <FXCollections fx:factory="observableArrayList">
+                                            <String fx:value="Funcion 10:00 AM - 11:30 PM" />
+                                            <String fx:value="Funcion 11:30 AM - 1:30 PM" />
+                                            <String fx:value="Funcion 1:30 AM - 3:00 PM" />
+                                            <String fx:value="Funcion 3:00 AM - 4:30 PM" />
+                                            <String fx:value="Funcion 4:30 AM - 6:00 PM" />
+                                            <String fx:value="Funcion 6:00 AM - 7:30 PM" />
+                                       </FXCollections>
+                                   </items>
+                                 <VBox.margin>
+                                    <Insets left="10.0" />
+                                 </VBox.margin>
+                                 <opaqueInsets>
+                                    <Insets />
+                                 </opaqueInsets>
+                               </ComboBox>
+                              <TextField fx:id="salaTxt1" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="25.0" prefWidth="208.0" stylesheets="@../styles/myTextFieldsStyles.css" />
+                              <ChoiceBox fx:id="asientosCh1" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="25.0" prefWidth="208.0" stylesheets="@../styles/myChoiceBoxStyles.css" />
+                              <TextField fx:id="cantidadTxt" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="25.0" prefWidth="208.0" stylesheets="@../styles/myTextFieldsStyles.css" />
+                           </children>
+                           <opaqueInsets>
+                              <Insets />
+                           </opaqueInsets>
+                           <padding>
+                              <Insets top="10.0" />
+                           </padding>
+                        </VBox>
+                        <AnchorPane maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="166.0" prefWidth="239.0" HBox.hgrow="NEVER">
+                           <HBox.margin>
+                              <Insets left="100.0" top="50.0" />
+                           </HBox.margin>
+                           <children>
+                              <Button id="facturaBtn" fx:id="facturaBtn" alignment="CENTER" contentDisplay="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="119.0" prefWidth="226.0" stylesheets="@../styles/myButtonsStyles.css" text="Agregar a factura" />
+                           </children>
+                        </AnchorPane>
+                     </children>
+                  </HBox>
+                  <HBox alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="225.0" prefWidth="818.0" styleClass="movie-pane" stylesheets="@../styles/colorScale.css">
+                     <children>
+                        <ImageView fitHeight="183.0" fitWidth="179.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../images/themoviesex_movies_movies_movies_movie_7662.png" />
+                           </image>
+                           <HBox.margin>
+                              <Insets left="-60.0" />
+                           </HBox.margin>
+                        </ImageView>
+                        <VBox alignment="TOP_RIGHT" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="200.0" prefWidth="218.0" spacing="20.0" HBox.hgrow="NEVER">
+                           <HBox.margin>
+                              <Insets />
+                           </HBox.margin>
+                           <children>
+                              <ComboBox fx:id="funciones2" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onAction="#movieSelection" prefHeight="25.0" prefWidth="208.0" promptText="Funciones: " stylesheets="@../styles/myComboBoxesStyles.css">
+                                 <items>
+                                    <FXCollections fx:factory="observableArrayList">
+                                       <String fx:value="Funcion 10:00 AM - 11:30 PM" />
+                                       <String fx:value="Funcion 11:30 AM - 1:30 PM" />
+                                       <String fx:value="Funcion 1:30 AM - 3:00 PM" />
+                                       <String fx:value="Funcion 3:00 AM - 4:30 PM" />
+                                       <String fx:value="Funcion 4:30 AM - 6:00 PM" />
+                                       <String fx:value="Funcion 6:00 AM - 7:30 PM" />
+                                    </FXCollections>
+                                 </items>
+                                 <VBox.margin>
+                                    <Insets left="10.0" />
+                                 </VBox.margin>
+                                 <opaqueInsets>
+                                    <Insets />
+                                 </opaqueInsets>
+                              </ComboBox>
+                              <TextField fx:id="salaTxt2" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="25.0" prefWidth="208.0" stylesheets="@../styles/myTextFieldsStyles.css" />
+                              <ChoiceBox fx:id="asientosCh2" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="25.0" prefWidth="208.0" stylesheets="@../styles/myChoiceBoxStyles.css" />
+                              <TextField fx:id="cantidadTxt11" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="25.0" prefWidth="208.0" stylesheets="@../styles/myTextFieldsStyles.css" />
+                           </children>
+                           <opaqueInsets>
+                              <Insets />
+                           </opaqueInsets>
+                           <padding>
+                              <Insets top="10.0" />
+                           </padding>
+                        </VBox>
+                        <AnchorPane maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="166.0" prefWidth="239.0" HBox.hgrow="NEVER">
+                           <HBox.margin>
+                              <Insets left="100.0" top="50.0" />
+                           </HBox.margin>
+                           <children>
+                              <Button id="facturaBtn" fx:id="facturaBtn11" alignment="CENTER" contentDisplay="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="119.0" prefWidth="226.0" stylesheets="@../styles/myButtonsStyles.css" text="Agregar a factura" />
+                           </children>
+                        </AnchorPane>
+                     </children>
+                  </HBox>
+                  <HBox alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="227.0" prefWidth="818.0" styleClass="movie-pane" stylesheets="@../styles/colorScale.css">
+                     <children>
+                        <ImageView fitHeight="183.0" fitWidth="179.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../images/themummytombofthedragonemperor_movie_movies_movies_movie_7639.png" />
+                           </image>
+                           <HBox.margin>
+                              <Insets left="-60.0" />
+                           </HBox.margin>
+                        </ImageView>
+                        <VBox alignment="TOP_RIGHT" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="200.0" prefWidth="218.0" spacing="20.0" HBox.hgrow="NEVER">
+                           <HBox.margin>
+                              <Insets />
+                           </HBox.margin>
+                           <children>
+                              <ComboBox fx:id="funciones3" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onAction="#movieSelection" prefHeight="25.0" prefWidth="208.0" promptText="Funciones: " stylesheets="@../styles/myComboBoxesStyles.css">
+                                 <items>
+                                    <FXCollections fx:factory="observableArrayList">
+                                       <String fx:value="Funcion 10:00 AM - 11:30 PM" />
+                                       <String fx:value="Funcion 11:30 AM - 1:30 PM" />
+                                       <String fx:value="Funcion 1:30 AM - 3:00 PM" />
+                                       <String fx:value="Funcion 3:00 AM - 4:30 PM" />
+                                       <String fx:value="Funcion 4:30 AM - 6:00 PM" />
+                                       <String fx:value="Funcion 6:00 AM - 7:30 PM" />
+                                    </FXCollections>
+                                 </items>
+                                 <VBox.margin>
+                                    <Insets left="10.0" />
+                                 </VBox.margin>
+                                 <opaqueInsets>
+                                    <Insets />
+                                 </opaqueInsets>
+                              </ComboBox>
+                              <TextField fx:id="salaTxt3" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="25.0" prefWidth="208.0" stylesheets="@../styles/myTextFieldsStyles.css" />
+                              <ChoiceBox fx:id="asientosCh3" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="25.0" prefWidth="208.0" stylesheets="@../styles/myChoiceBoxStyles.css" />
+                              <TextField fx:id="cantidadTxt12" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="25.0" prefWidth="208.0" stylesheets="@../styles/myTextFieldsStyles.css" />
+                           </children>
+                           <opaqueInsets>
+                              <Insets />
+                           </opaqueInsets>
+                           <padding>
+                              <Insets top="10.0" />
+                           </padding>
+                        </VBox>
+                        <AnchorPane maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="166.0" prefWidth="239.0" HBox.hgrow="NEVER">
+                           <HBox.margin>
+                              <Insets left="100.0" top="50.0" />
+                           </HBox.margin>
+                           <children>
+                              <Button id="facturaBtn" fx:id="facturaBtn12" alignment="CENTER" contentDisplay="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="119.0" prefWidth="226.0" stylesheets="@../styles/myButtonsStyles.css" text="Agregar a factura" />
+                           </children>
+                        </AnchorPane>
+                     </children>
+                  </HBox>
+                  <HBox alignment="CENTER" prefHeight="202.0" prefWidth="760.0" styleClass="movie-pane" stylesheets="@../styles/colorScale.css">
+                     <children>
+                        <ImageView fitHeight="183.0" fitWidth="179.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../images/The_Lord_of_the_Rings_-_The_Two_Towers_32482.png" />
+                           </image>
+                           <HBox.margin>
+                              <Insets left="-60.0" />
+                           </HBox.margin>
+                        </ImageView>
+                        <VBox alignment="TOP_RIGHT" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="200.0" prefWidth="218.0" spacing="20.0" HBox.hgrow="NEVER">
+                           <HBox.margin>
+                              <Insets />
+                           </HBox.margin>
+                           <children>
+                              <ComboBox fx:id="funciones4" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onAction="#movieSelection" prefHeight="25.0" prefWidth="208.0" promptText="Funciones: " stylesheets="@../styles/myComboBoxesStyles.css">
+                                 <items>
+                                    <FXCollections fx:factory="observableArrayList">
+                                       <String fx:value="Funcion 10:00 AM - 11:30 PM" />
+                                       <String fx:value="Funcion 11:30 AM - 1:30 PM" />
+                                       <String fx:value="Funcion 1:30 AM - 3:00 PM" />
+                                       <String fx:value="Funcion 3:00 AM - 4:30 PM" />
+                                       <String fx:value="Funcion 4:30 AM - 6:00 PM" />
+                                       <String fx:value="Funcion 6:00 AM - 7:30 PM" />
+                                    </FXCollections>
+                                 </items>
+                                 <VBox.margin>
+                                    <Insets left="10.0" />
+                                 </VBox.margin>
+                                 <opaqueInsets>
+                                    <Insets />
+                                 </opaqueInsets>
+                              </ComboBox>
+                              <TextField fx:id="salaTxt4" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="25.0" prefWidth="208.0" stylesheets="@../styles/myTextFieldsStyles.css" />
+                              <ChoiceBox fx:id="asientosCh5" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="25.0" prefWidth="208.0" stylesheets="@../styles/myChoiceBoxStyles.css" />
+                              <TextField fx:id="cantidadTxt13" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="25.0" prefWidth="208.0" stylesheets="@../styles/myTextFieldsStyles.css" />
+                           </children>
+                           <opaqueInsets>
+                              <Insets />
+                           </opaqueInsets>
+                           <padding>
+                              <Insets top="10.0" />
+                           </padding>
+                        </VBox>
+                        <AnchorPane maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="166.0" prefWidth="239.0" HBox.hgrow="NEVER">
+                           <HBox.margin>
+                              <Insets left="100.0" top="50.0" />
+                           </HBox.margin>
+                           <children>
+                              <Button id="facturaBtn" fx:id="facturaBtn13" alignment="CENTER" contentDisplay="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="119.0" prefWidth="226.0" stylesheets="@../styles/myButtonsStyles.css" text="Agregar a factura" />
+                           </children>
+                        </AnchorPane>
+                     </children>
+                  </HBox>
+               </children>
+            </VBox>
+         </content>
+      </ScrollPane>
+   </children>
+   <padding>
+      <Insets left="50.0" />
+   </padding>
+</AnchorPane>
